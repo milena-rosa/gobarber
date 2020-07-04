@@ -2,13 +2,13 @@
 
 **RF (Requisitos Funcionais)**
 
-- [ ] O usuário deve poder recuperar sua senha informando seu e-mail;
-- [ ] O usuário deve receber um e-mail com instruções de recuperação de senha;
-- [ ] O usuário deve poder restaurar sua senha.
+- [x] O usuário deve poder recuperar sua senha informando seu e-mail;
+- [x] O usuário deve receber um e-mail com instruções de recuperação de senha;
+- [x] O usuário deve poder restaurar sua senha.
 
 **RNF (Requisitos não funcionais)**
 
-- [ ] Utilizar Mailtrap para testar envios em ambiente de desenvolvimento.
+- [x] Utilizar Ethereal Mail para testar envios em ambiente de desenvolvimento.
 - [ ] Utilizar Amazon SES para envios em produção.
 - [ ] O envio de e-mails deve acontecer em segundo plano (_background job_).
 
@@ -25,14 +25,11 @@
 
 **RNF (Requisitos não funcionais)**
 
-
-
 **RN (Regras de negócio)**
 
 - [ ] O usuário não pode alterar seu e-mail para um e-mail já utilizado;
 - [ ] Para atualizar sua senha, o usuário deve informar a senha antiga;
 - [ ] Para atualizar sua senha, o usuário deve confirmar a nova senha.
-
 
 # Painel do prestador
 
