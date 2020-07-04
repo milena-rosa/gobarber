@@ -21,14 +21,12 @@
 
 **RF (Requisitos Funcionais)**
 
-- [ ] O usuário deve poder atualizar seu nome, e-mail, senha e avatar.
-
-**RNF (Requisitos não funcionais)**
+- [x] O usuário deve poder atualizar seu nome, e-mail, senha e avatar.
 
 **RN (Regras de negócio)**
 
-- [ ] O usuário não pode alterar seu e-mail para um e-mail já utilizado;
-- [ ] Para atualizar sua senha, o usuário deve informar a senha antiga;
+- [x] O usuário não pode alterar seu e-mail para um e-mail já utilizado;
+- [x] Para atualizar sua senha, o usuário deve informar a senha antiga;
 - [ ] Para atualizar sua senha, o usuário deve confirmar a nova senha.
 
 # Painel do prestador
@@ -53,7 +51,7 @@
 
 **RF (Requisitos Funcionais)**
 
-- [ ] O usuário deve poder listar todos os prestadores de serviço cadastrados;
+- [x] O usuário deve poder listar todos os prestadores de serviço cadastrados;
 - [ ] O usuário deve poder visualizar os dias de um mês com, pelo menos, um horário disponível de um determinado prestador;
 - [ ] O usuário deve poder listar horários disponíveis em um dia específico de um prestador;
 - [ ] O usuário deve poder realizar um novo agendamento com um prestador.
