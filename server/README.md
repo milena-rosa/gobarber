@@ -52,9 +52,9 @@
 **RF (Requisitos Funcionais)**
 
 - [x] O usuário deve poder listar todos os prestadores de serviço cadastrados;
-- [ ] O usuário deve poder visualizar os dias de um mês com, pelo menos, um horário disponível de um determinado prestador;
-- [ ] O usuário deve poder listar horários disponíveis em um dia específico de um prestador;
-- [ ] O usuário deve poder realizar um novo agendamento com um prestador.
+- [x] O usuário deve poder visualizar os dias de um mês com, pelo menos, um horário disponível de um determinado prestador;
+- [x] O usuário deve poder listar horários disponíveis em um dia específico de um prestador;
+- [x] O usuário deve poder realizar um novo agendamento com um prestador.
 
 **RNF (Requisitos não funcionais)**
 
@@ -62,8 +62,8 @@
 
 **RN (Regras de negócio)**
 
-- [ ] Cada agendamento deve durar 1 hora;
-- [ ] Os agendamentos devem estar disponíveis das 8h às 18h (primeiro às 8h, último às 17h);
-- [ ] O usuário não pode agendar em um horário já ocupado;
-- [ ] O usuário não pode agendar em um horário que já passou;
-- [ ] O usuário não pode agendar serviços consigo mesmo.
+- [x] Cada agendamento deve durar 1 hora;
+- [x] Os agendamentos devem estar disponíveis das 8h às 18h (primeiro às 8h, último às 17h);
+- [x] O usuário não pode agendar em um horário já ocupado;
+- [x] O usuário não pode agendar em um horário que já passou;
+- [x] O usuário não pode agendar serviços consigo mesmo.
