@@ -7,12 +7,17 @@ import ICreateAppointmentDTO from '@modules/appointments/dtos/ICreateAppointment
 import IFindAllInMonthFromProviderDTO from '@modules/appointments/dtos/IFindAllInMonthFromProviderDTO';
 import IFindAllInDayFromProviderDTO from '@modules/appointments/dtos/IFindAllInDayFromProviderDTO';
 
-class AppointmentsRepository implements IAppointmentsRepository {
+class FakeAppointmentsRepository implements IAppointmentsRepository {
   private appointments: Appointment[] = [];
 
-  public async findByDate(date: Date): Promise<Appointment | undefined> {
-    const foundAppointment = this.appointments.find(appointment =>
-      isEqual(appointment.date, date),
+  public async findByDate(
+    date: Date,
+    provider_id: string,
+  ): Promise<Appointment | undefined> {
+    const foundAppointment = this.appointments.find(
+      appointment =>
+        isEqual(appointment.date, date) &&
+        appointment.provider_id === provider_id,
     );
     return foundAppointment;
   }
@@ -64,4 +69,4 @@ class AppointmentsRepository implements IAppointmentsRepository {
   }
 }
 
-export default AppointmentsRepository;
+export default FakeAppointmentsRepository;
